@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.div{
+    padding-bottom: 35vh;
+    width: 100%;
+    background-image: linear-gradient(60deg, rgba(63, 58, 58, 0.438), rgba(0, 0, 0, 0.623)), url(./image/netflix.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div .form{
+    width: 77%;
+    margin: auto;
+    position: relative;
+}
+.div .form h1{
+    font-size: 3rem;
+    color: #f30410;
+    padding: 15px 0;
+}
+.div .form form{
+    width: 40%;
+    padding: 40px 70px;
+    background-image: linear-gradient(300deg, rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.623));
+    margin: auto;
+    border-radius: 15px;
+}
+.div .form form h1{
+    font-size: 2.5rem;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+    color: #fff;
+}
+.div .form form input{
+    width: 100%;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #12111071;
+    border: 1px solid #606060;
+    font-size: 1.2rem;
+    color: white;
+}
+.div .form form .input2{
+    margin-top: 1.5vh;
+}
+.div .form form button{
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1rem;
+    margin-top: 2vh;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #f30410;
+}
+.div .form form button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.div .form form .p1{
+    font-size: 1rem;
+    margin-top: 2vh;
+    text-align: center;
+    color: #cfc9c9;
+}
+.div .form form .span1{
+    font-size: 1rem;
+    color: #b3b3b3;
+}
+.div .form form .span2 a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.div .form form .p2{
+    margin-top: 2vh;
+    font-size: 1rem;
+    color: gray;
+}
+.div .form form .p2 a{
+    text-decoration: none;
+}
+.div .form form button:hover{
+    background-color: #c21119;
+}
+.div .div1{
+    width: 100%;
+    background-image: linear-gradient(300deg, rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678));
+    position: absolute;
+    bottom: 0;
+}
+.div .div1 .links{
+    width: 77%;
+    margin: auto;
+    padding: 30px 0;
+}
+.div .div1 .links p a{
+    font-size: 1.2rem;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+.div .div1 .links p{
+    margin-bottom: 4vh;
+}
+.div .div1 .links div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div .div1 .links div span h3{
+    margin-bottom: 2vh;
+    color: #b3b3b3;
+    font-size: 0.8rem;
+}
+.div .div1 .links div span h3 a{
+    color: #b3b3b3;
+}
+
+@media screen and (min-width: 767px ) and (max-width: 1025px) {
+    .div .form h1{
+        margin-bottom: 14vh;
+    }
+    .div .form{
+        width: 100%;
+        
+    }
+    .div{
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 767px){
+    .div .form h1{
+        margin-bottom: 14vh;
+        font-size: 3.5rem;
+    }
+    .div .form{
+        width: 120%;  
+    }
+}

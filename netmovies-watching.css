@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 20px;
+}
+.navbar-section h1{
+    margin-left: 27px;
+    font-size: 3rem;
+    color: #f30410a6;
+}
+.navbar-section ul li{
+    list-style: none;
+}
+.navbar-section ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding-right: 55px;
+}
+.landing-page{
+    margin: 0 auto;
+    padding-bottom: 6vh;
+    width: 80%;
+    background-color: transparent;
+}
+.landing-page .section2{
+    margin-top: 20px;
+}
+.landing-page .section2 h1{
+    margin-top: 8px;
+}
+.landing-page .section2 div{
+    margin-top: 15px;
+}
+.landing-page .section2 div p{
+    font-size: 1.5rem;
+}
+.landing-page .section2 div p .ic{
+    margin-right: 8px;
+    font-size: 25px;
+    color: #e60410;
+}
+.landing-page .section2 .buttons{
+    display: flex;
+    justify-content: end;
+}
+.landing-page .section2 .buttons span{
+    color: white;
+}
+.landing-page .section2 .buttons button{
+    margin-top: 20px;
+    padding: 60px;
+    border: none;
+    background-color: #F26A6A;
+}
+.landing-page .section2 .buttons button:hover{
+    background-color: #e60410;
+    cursor: pointer;
+}
+.landing-page .section2 .buttons .BT{
+    margin-left: 20px;
+}
+.landing-page .section2 .button-layout{
+    margin-top: 4vh;
+}
+.landing-page .section2 .buttons2{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px;
+    margin-top: 10px;
+} 
+.landing-page .section2 .button-layout .buttons2 button{
+    border: none;
+    background-color: transparent;
+}
+.landing-page .section2 .button-layout .buttons2 .first{
+    margin-right: 30.5%;
+    font-size: 15px;
+}
+.landing-page .section2 .button-layout .buttons2 .secound{
+    margin-right: 11.8%;
+}
+.landing-page .section2 .button-layout .buttons2 .R{
+    margin-left: 25px; 
+}
+.landing-page .section2 .button-layout .buttons2 .secound1{
+    margin-right: 12.5%;
+}
+.landing-page .section2 .button-layout .buttons2 .secound2{
+    margin-right: 13.6%;
+}
+.landing-page .section2 .button-layout .buttons2 .G{
+  margin-left: 14px;
+}
+.landing-page .section2 .button-layout .buttons2 .K{
+    margin-left: 15px;
+}
+.landing-page .section2 .button-layout .buttons2 .KE{
+    margin-left: 8px;
+}
+.landing-page .section2 .button-layout .buttons2 .S{
+   margin-left: px;
+}
+.landing-page .section2 .button-layout .buttons2 .ME{
+    margin-left: 9px;
+}
+.landing-page .section2 .button-layout .buttons2 .B{
+    margin-left: 12px;
+}
+.landing-page .section2 .button-layout .buttons2 span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #6D6E6D;
+}
+.landing-page .section2 .button-layout .buttons2 .JA{
+    margin-left: 4px;
+}
+.landing-page .section2 .button-layout .buttons2 .MA{
+    margin-left: 8px;
+}
+.landing-page .section2 .button-layout .buttons3{
+    border: none;
+    height: auto;
+    margin-left: 10px;
+}
+.landing-page .section2 .button-layout .buttons3 button{
+    border: none;
+    background-color: transparent;
+}
+.landing-page .section2 .button-layout .buttons3 button .ic{
+    font-size: 36px;
+    color: #969696;
+}
+.landing-page .section2 .button-layout .buttons3 .devices{
+    margin-right: 295px;
+}
+.landing-page .section2 .button-layout .buttons3 .C{
+    margin-right: 140px;
+}
+.landing-page .section2 .button-layout .buttons3 .A{
+    margin-right: 147px;
+}
+.landing-page .section2 .button-layout .buttons3 .B{
+    margin-right: 159px;
+}
+.landing-page .section2 .button-layout .buttons3 .secound{
+    margin-right: 420px;
+}
+.landing-page .section2 .button-layout .buttons3 .GO{
+    margin-left: 5px;
+}
+.landing-page .section2 .button-layout .buttons3 .YES{
+    margin-left: 3px;
+}
+.landing-page .section2 .button-layout .buttons3 .MOVE{
+    margin-top: 10px;
+}
+.landing-page .section2 .button-layout .buttons3 .computer-section{
+    margin-right: 590px;
+}
+.landing-page .section2 .button-layout .buttons3 .lap1{
+    margin-right: 98pt;
+}
+.landing-page .section2 .button-layout .buttons3 .c1{
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.landing-page .section2 .button-layout .buttons3 .lap2{
+    margin-right: 104pt;
+}
+.landing-page .section2 .button-layout .buttons3 button .gc{
+    font-size: 30px;
+    color: #969696;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.landing-page .section2 .button-layout .buttons3 .television-section{
+    margin-right: 608px;
+}
+.landing-page .section2 .button-layout .buttons3 .tv1{
+    margin-right: 115pt;
+}
+.landing-page .section2 .button-layout .buttons3 .tv2{
+    margin-right: 120pt;
+}
+.landing-page .section2 .last{
+    margin-top: 3vh;
+}
+.landing-page .section2 .last p{
+    font-size: 15px;
+    color: #969696;
+}
+.landing-page .section2 .last .p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0075ec;
+}
+.landing-page .section2 .last p a:hover{
+    cursor: pointer;
+}
+.landing-page .section2 .last .p1{
+    margin-top: 10px;
+}
+.landing-page .section2 .last a button{
+    padding: 25px;
+    width: 40%;
+    border: none;
+    border-radius: 3px;
+    margin-left: 32%;
+    margin-top: 5vh;
+    background-color: #e50914;
+    color: white;
+    font-size: 18px;
+}
+.landing-page .section2 .last a button:hover{
+    background-color: #f6121d;
+}
+.third-layout{
+    background-color: #f3f3f3;
+}
+.third-layout .v2{
+    width: 90%;
+    height: 24vh;
+    margin-left: 6%;
+    position: relative;
+}
+.third-layout .v2 .gt .p1{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    color: #737373;
+    top: 4vh;
+}
+.third-layout .v2 .R7{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 12vh;
+}
+.third-layout .v2 .R7 div{
+    margin-right: 120px;
+}
+.third-layout .v2 .R7 a{
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #737373;
+    font-size: 1rem;
+}
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+    .navbar-section h1{
+        font-size: 1.8rem;
+    }
+    .navbar-section ul li a{
+        font-size: 1.2rem;
+    }
+    .landing-page .section2 h1{
+        font-size: 1.5rem;
+    }
+    .landing-page .section2 div p{
+        font-size: 1.2rem;
+    }
+    .landing-page .section2 div p .ic{
+        font-size: 18px;
+    }
+    .landing-page .section2 .buttons button{
+        padding: 1.5rem;
+    }
+    .landing-page .section2 .button-layout .buttons2 .first{
+        margin-right: 36%;
+    }
+
+    .landing-page .section2 .button-layout .buttons2 .secound{
+        margin-right: 8%;
+    }
+    .landing-page .section2 .button-layout .buttons2 .secound1{
+        margin-right: 7%;
+    }
+    .landing-page .section2 .button-layout .buttons2 .secound2{
+        margin-right: 8%;
+    }
+    
+    .landing-page .section2 .button-layout .buttons3 .devices{
+        margin-right: 32%;
+    }
+    
+    .landing-page .section2 .button-layout .buttons3 .C{
+        margin-right: 4.4rem;
+    }
+    .landing-page .section2 .button-layout .buttons3 .A{
+        margin-right: 4.5rem;
+    }
+    .landing-page .section2 .button-layout .buttons3 .B{
+        margin-right: 4.6rem;
+    }
+    
+    .landing-page .section2 .button-layout .buttons3 .secound{
+        margin-right: 372px;
+    }
+
+    .landing-page .section2 .button-layout .buttons3 .computer-section{
+        margin-right: 476px;
+    }
+    .landing-page .section2 .button-layout .buttons3 .lap1{
+        margin-right: 53px;
+    }
+    .landing-page .section2 .button-layout .buttons3 .lap2{
+        margin-right: 51px;
+    }
+
+    .landing-page .section2 .button-layout .buttons3 .television-section{
+        margin-right: 490px;
+    }
+
+    .landing-page .section2 .button-layout .buttons3 .tv1{
+        margin-right: 76px;
+    }
+    .landing-page .section2 .button-layout .buttons3 .tv2{
+        margin-right: 76px;
+    }
+    .landing-page .section2 .last p{
+        font-size: 10px;
+        color: #969696;
+    }
+}
+@media screen and (max-width: 767px){
+    .landing-page .section2 div p{
+        font-size: 1rem;
+    }
+    .landing-page .section2 div p .ic{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
